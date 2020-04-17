@@ -1,5 +1,5 @@
 spring:
   cloud:
     config:
-      overrideNone: false
+      overrideNone: true
 data: develop branch
