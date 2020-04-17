@@ -1,1 +1,5 @@
+spring:
+  cloud:
+    config:
+      overrideNone: true
 data: develop branch
