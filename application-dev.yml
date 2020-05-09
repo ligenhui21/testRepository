@@ -22,4 +22,4 @@ hystrix:
 
 server-provider: SERVER-PROVIDER
 
-data: dev111
+data: dev
