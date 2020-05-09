@@ -6,7 +6,7 @@ feign:
 # 设置feign客户端超时时间(OpenFeign默认支持ribbon)
 ribbon:
   # 从服务器读取到可用资源所用的时间
-  ReadTimeout: 3000
+  ReadTimeout: 6000
   # 建立连接所用的时间
   ConnectTimeout: 2000
 
@@ -18,7 +18,7 @@ hystrix:
           enable: true
         isolation:
           thread:
-            timeoutInMilliseconds: 4000
+            timeoutInMilliseconds: 10000
 
 server-provider: SERVER-PROVIDER
 
