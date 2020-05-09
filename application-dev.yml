@@ -1,1 +1,10 @@
+eureka:
+  client:
+    #表示是否将自己注册进eureka，默认为true
+    register-with-eureka: true
+    #是否从eureka server获取已有的注册信息，默认为true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
 data: dev
